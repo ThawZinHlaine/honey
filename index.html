@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html Lang = " en ">
+    <head>
+        <meta charset="ut-8"/>
+        <title>ITVisionHub / Basic Web Development </title>
+    </head>
+<body>
+<!--heading level h1-->
+<h1>ITVisionHub</h1>
+<h2>Basic Web Development (HTML,CSS,JAVASCRIP</h2>
+<body>
+<P> This is index page </P>
+
+<img src ="image/flower.jpeg" alt="This is flower" title="this is flower" />
+<br/>
+<iframe src="another/another_index.html" title="This is another page"
+        width="600"
+        height="400"
+></iframe>
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gdZLi9oWNZg"
+ title="YouTube video player" frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+   allowfullscreen></iframe>
+
+   <table border="5">
+    <thead>
+       </tr>
+       <td> Customer name </td>
+       <td> Contact number </td>
+       </tr>
+    </thead>
+       <tr>
+           <th>Mg Mg</th>
+           <th>12345678</th>
+        </tr>
+                  <tr>
+                      <td>Kyaw Kyaw</td>
+                      <td>65432879</td>
+                    </tr>
+       <tr>
+           
+           <td>Mya Mya</td>
+           <td>98764536</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>98764534</td>
+         </tr>
+         <tfoot>
+             <tr>
+                 <td colspan="2" align="center">Customer information</td>
+                
+             </tr>
+         </tfoot>
+   </table>
+
+   <form action="another_index.html" method="POST" name="my_form">
+       <fieldset>
+           <legend align="center">User information</legend>
+           <label for="userName">User name:</label>
+       <input type="text" name="userName"id="userName"/><br/>
+       <label for="password">password:</label>
+       <input type="password" name="password"id="password"/><br/>
+       <input type="radio" name="gender"value="Male"id="male"/><label for="Male">Male</label><br/>
+       <input type="radio" name="gender"value="Female"id="Female"/><label for="Female">Female</label> <br/>
+       <input type="checkbox" name="foods"value="Banana"id="Banana"/> <label for="Banana">Banana</label> <br/>
+       <input type="checkbox" name="foods"value="Apple"id="Apple"/> <label for="Apple">Apple</label> <br/>
+       <input type="checkbox" name="foods"value="Grap"id="Grap"/> <label for="Grap">Grap</label><br/>
+       </fieldset>
+       <fieldset>
+           <legend align="center">Tell us about yourself</legend>
+           <label for="City">City</label>
+       <select id="city">
+        <optgroup label="lower Myanmar">
+     <option value="Yangon">Yangon</option>
+        </optgroup>
+        <optgroup label="upper Myanmar">
+     <option value="Mandalay">Mandalay</option>
+     <option value="Bamaw">Bamaw</option>
+     <option value="kyauk Thada">kyauk Thada</option>
+     <option value="monywa">monywa</option>
+        </optgroup>
+    </select><br/>
+    <label for="about">about yourself</label>
+       <textarea rows="10"cols="30"id=about></textarea><br/>
+</fieldset>
+      
+       
+       <input type="submit" name="submit"value="next"/> <br/>
+       
+   </form>
+</body>
+</html>
